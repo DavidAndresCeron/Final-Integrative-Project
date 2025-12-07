@@ -105,9 +105,20 @@
         margin-bottom: 20px;
     }
 
+    .footer-icons {
+        align-self: center;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
     .footer-links p, .footer-info p {
         margin: 8px 0;
         font-size: 16px;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+        color: #000000;
     }
 
 /* BOOK NOW Button */
@@ -115,7 +126,7 @@
         background: red;
         height: 100px;
         padding: 30px 60px;
-        border-radius: 35px;
+        border-radius: 14px;
         font-size: 24px;
         font-weight: bold;
         font-style: italic;
@@ -190,19 +201,14 @@
 
     /* rooms sections */
 
-     .image-box {
+     .image-box-rooms {
         position: relative;
         width: 100%;
         display: flex;
         gap: 30px;
     }
 
-    .main-image {
-        width: 60%;
-        border-radius: 4px;
-    }
-
-     .label-box {
+     .label-box-rooms {
         position: absolute;
         bottom: 20px;
         left: 20px;
@@ -211,18 +217,18 @@
         border-radius: 4px;
     }
 
-    .label-box h2 {
+    .label-box-rooms h2 {
         margin: 0;
         font-size: 26px;
         font-weight: bold;
     }
 
-    .label-box small {
+    .label-box-rooms small {
         font-size: 14px;
         color: grey;
     }
 
-        .slider-arrows {
+    .slider-arrows {
         position: absolute;
         left: 600px;
         bottom: 20px;
@@ -240,7 +246,40 @@
         border: 1px solid whitesmoke;
     }
 
-   
+/* Activities page */
+
+      .image-box-activities {
+        position: relative;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+    }
+
+       .images-activities {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+
+      .label-box-activities {
+        position: absolute;
+        bottom: 20px;
+        left: 120px;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 25px 120px;
+        border-radius: 4px;
+    }
+
+      .details-box {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+       .columns {
+        column-count: 2;        
+        column-gap: 30px;    
+    }
 
 
 /* Booking page */
