@@ -48,6 +48,10 @@
         cursor: pointer; 
     }
 
+    .hidden {
+        display: none;
+    }
+
     /* Pseudo selector and animation */
 
 
@@ -70,7 +74,7 @@
     }
 
     .availability-button input:active + span::after{
-        content: ✅;
+        content: U+2705;
     }
 
 
